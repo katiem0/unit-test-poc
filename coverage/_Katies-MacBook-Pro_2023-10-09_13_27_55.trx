@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="c24e4197-2043-42e4-8870-a7757aef9f80" name="@Katies-MacBook-Pro 2023-10-09 13:27:55" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-10-09T13:27:55.0232720-04:00" queuing="2023-10-09T13:27:55.0232720-04:00" start="2023-10-09T13:27:54.0762870-04:00" finish="2023-10-09T13:27:55.0793180-04:00" />
+  <TestSettings name="default" id="bfd70704-90b8-4aaa-8623-7025b487895d">
+    <Deployment runDeploymentRoot="_Katies-MacBook-Pro_2023-10-09_13_27_55" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="d2eaff90-47ac-4edb-a425-f6da1627b117" testId="fc71c34f-c037-57fb-954d-5e6b5835b639" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 7)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000015" startTime="2023-10-09T13:27:54.9818300-04:00" endTime="2023-10-09T13:27:54.9818300-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2eaff90-47ac-4edb-a425-f6da1627b117" />
+    <UnitTestResult executionId="5942deee-85f9-4099-a9d4-1244193292a1" testId="38a26939-cbf3-6bc9-1c0d-dc48c00bcb67" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 2)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000743" startTime="2023-10-09T13:27:54.9814520-04:00" endTime="2023-10-09T13:27:54.9814520-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5942deee-85f9-4099-a9d4-1244193292a1" />
+    <UnitTestResult executionId="88a4712d-bd69-46a5-a908-3eaf83f947e9" testId="5a802a63-d5c4-c328-dba5-8d54300d2d3f" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 4)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000013" startTime="2023-10-09T13:27:54.9971290-04:00" endTime="2023-10-09T13:27:54.9971290-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88a4712d-bd69-46a5-a908-3eaf83f947e9" />
+    <UnitTestResult executionId="07ca9e1d-792c-4e22-8fb7-e4e15b3c3f42" testId="7db5907a-e8c2-fd08-f6cd-19fe4bb587d4" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: 0)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000045" startTime="2023-10-09T13:27:54.9811510-04:00" endTime="2023-10-09T13:27:54.9811510-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07ca9e1d-792c-4e22-8fb7-e4e15b3c3f42" />
+    <UnitTestResult executionId="d2bc68aa-1776-48dc-a4bd-a35a37b54d34" testId="e8d909fa-ffa6-2fb6-a9fc-523a23653f5e" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 3)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000017" startTime="2023-10-09T13:27:54.9817080-04:00" endTime="2023-10-09T13:27:54.9817080-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d2bc68aa-1776-48dc-a4bd-a35a37b54d34" />
+    <UnitTestResult executionId="662660b4-3a3b-47eb-9fbd-cf64b565e454" testId="13275956-a43c-df2e-7720-9ab6ac582129" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: 1)" computerName="Katies-MacBook-Pro" duration="00:00:00.0015077" startTime="2023-10-09T13:27:54.9759650-04:00" endTime="2023-10-09T13:27:54.9759750-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="662660b4-3a3b-47eb-9fbd-cf64b565e454" />
+    <UnitTestResult executionId="30039d1c-9f9b-42b9-b3d7-bd723dd3e33c" testId="a4f948fa-4421-8028-a415-11a48c14f17c" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 6)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000014" startTime="2023-10-09T13:27:54.9969250-04:00" endTime="2023-10-09T13:27:54.9969250-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30039d1c-9f9b-42b9-b3d7-bd723dd3e33c" />
+    <UnitTestResult executionId="fcf39eb1-7db5-45b9-bd1d-7cd81efdf1da" testId="3e32d1a5-ce36-ae38-b385-d8f522a99a13" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 5)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000022" startTime="2023-10-09T13:27:54.9815800-04:00" endTime="2023-10-09T13:27:54.9815800-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcf39eb1-7db5-45b9-bd1d-7cd81efdf1da" />
+    <UnitTestResult executionId="c4825ba5-0a56-4ef9-aa56-1ba68a48cbc3" testId="6327b858-0fd0-99bb-d810-75db0e0aa61e" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: -1)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000055" startTime="2023-10-09T13:27:54.9813100-04:00" endTime="2023-10-09T13:27:54.9813100-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4825ba5-0a56-4ef9-aa56-1ba68a48cbc3" />
+    <UnitTestResult executionId="3dd16162-a337-4961-8562-755ad989d816" testId="de35813f-5fc1-57ba-ff5e-8f8fb37b3b1e" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 9)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000019" startTime="2023-10-09T13:27:54.9820720-04:00" endTime="2023-10-09T13:27:54.9820720-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3dd16162-a337-4961-8562-755ad989d816" />
+    <UnitTestResult executionId="941c7799-0922-4985-b9be-ad4249ef3ed2" testId="760b6cba-3b42-7bab-53fb-f13793e10f65" testName="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 8)" computerName="Katies-MacBook-Pro" duration="00:00:00.0000297" startTime="2023-10-09T13:27:54.9819530-04:00" endTime="2023-10-09T13:27:54.9819530-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="941c7799-0922-4985-b9be-ad4249ef3ed2" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 2)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="38a26939-cbf3-6bc9-1c0d-dc48c00bcb67">
+      <Execution id="5942deee-85f9-4099-a9d4-1244193292a1" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_PrimesLessThan10_ReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: 0)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="7db5907a-e8c2-fd08-f6cd-19fe4bb587d4">
+      <Execution id="07ca9e1d-792c-4e22-8fb7-e4e15b3c3f42" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_ValuesLessThan2_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: -1)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="6327b858-0fd0-99bb-d810-75db0e0aa61e">
+      <Execution id="c4825ba5-0a56-4ef9-aa56-1ba68a48cbc3" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_ValuesLessThan2_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 4)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="5a802a63-d5c4-c328-dba5-8d54300d2d3f">
+      <Execution id="88a4712d-bd69-46a5-a908-3eaf83f947e9" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_NonPrimesLessThan10_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_ValuesLessThan2_ReturnFalse(value: 1)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="13275956-a43c-df2e-7720-9ab6ac582129">
+      <Execution id="662660b4-3a3b-47eb-9fbd-cf64b565e454" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_ValuesLessThan2_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 6)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="a4f948fa-4421-8028-a415-11a48c14f17c">
+      <Execution id="30039d1c-9f9b-42b9-b3d7-bd723dd3e33c" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_NonPrimesLessThan10_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 7)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="fc71c34f-c037-57fb-954d-5e6b5835b639">
+      <Execution id="d2eaff90-47ac-4edb-a425-f6da1627b117" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_PrimesLessThan10_ReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 9)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="de35813f-5fc1-57ba-ff5e-8f8fb37b3b1e">
+      <Execution id="3dd16162-a337-4961-8562-755ad989d816" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_NonPrimesLessThan10_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_NonPrimesLessThan10_ReturnFalse(value: 8)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="760b6cba-3b42-7bab-53fb-f13793e10f65">
+      <Execution id="941c7799-0922-4985-b9be-ad4249ef3ed2" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_NonPrimesLessThan10_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 5)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="3e32d1a5-ce36-ae38-b385-d8f522a99a13">
+      <Execution id="fcf39eb1-7db5-45b9-bd1d-7cd81efdf1da" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_PrimesLessThan10_ReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Prime.UnitTests.Services.PrimeService_IsPrimeShould.IsPrime_PrimesLessThan10_ReturnTrue(value: 3)" storage="/users/katiem0/git/testing/unit-test-poc/primeservice.tests/bin/release/net6.0/primeservice.tests.dll" id="e8d909fa-ffa6-2fb6-a9fc-523a23653f5e">
+      <Execution id="d2bc68aa-1776-48dc-a4bd-a35a37b54d34" />
+      <TestMethod codeBase="/Users/katiem0/git/testing/unit-test-poc/PrimeService.Tests/bin/Release/net6.0/PrimeService.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Prime.UnitTests.Services.PrimeService_IsPrimeShould" name="IsPrime_PrimesLessThan10_ReturnTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="fc71c34f-c037-57fb-954d-5e6b5835b639" executionId="d2eaff90-47ac-4edb-a425-f6da1627b117" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38a26939-cbf3-6bc9-1c0d-dc48c00bcb67" executionId="5942deee-85f9-4099-a9d4-1244193292a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a802a63-d5c4-c328-dba5-8d54300d2d3f" executionId="88a4712d-bd69-46a5-a908-3eaf83f947e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7db5907a-e8c2-fd08-f6cd-19fe4bb587d4" executionId="07ca9e1d-792c-4e22-8fb7-e4e15b3c3f42" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8d909fa-ffa6-2fb6-a9fc-523a23653f5e" executionId="d2bc68aa-1776-48dc-a4bd-a35a37b54d34" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="13275956-a43c-df2e-7720-9ab6ac582129" executionId="662660b4-3a3b-47eb-9fbd-cf64b565e454" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4f948fa-4421-8028-a415-11a48c14f17c" executionId="30039d1c-9f9b-42b9-b3d7-bd723dd3e33c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e32d1a5-ce36-ae38-b385-d8f522a99a13" executionId="fcf39eb1-7db5-45b9-bd1d-7cd81efdf1da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6327b858-0fd0-99bb-d810-75db0e0aa61e" executionId="c4825ba5-0a56-4ef9-aa56-1ba68a48cbc3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de35813f-5fc1-57ba-ff5e-8f8fb37b3b1e" executionId="3dd16162-a337-4961-8562-755ad989d816" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="760b6cba-3b42-7bab-53fb-f13793e10f65" executionId="941c7799-0922-4985-b9be-ad4249ef3ed2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="11" executed="11" passed="11" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.22)
+[xUnit.net 00:00:00.22]   Discovering: PrimeService.Tests
+[xUnit.net 00:00:00.24]   Discovered:  PrimeService.Tests
+[xUnit.net 00:00:00.25]   Starting:    PrimeService.Tests
+[xUnit.net 00:00:00.30]   Finished:    PrimeService.Tests
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="Katies-MacBook-Pro" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="Katies-MacBook-Pro/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

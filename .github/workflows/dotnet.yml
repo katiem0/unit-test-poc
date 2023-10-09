@@ -54,6 +54,8 @@ jobs:
       with:
         recreate: true
         path: code-coverage-results.md  
+    - name: Write to Job Summary
+      run: cat code-coverage-results.md >> $GITHUB_STEP_SUMMARY
     - name: Produce the coverage report and comment
       uses: insightsengineering/coverage-action@v2
       with:
@@ -68,13 +70,3 @@ jobs:
       with:
         lcov-file: CodeCoverage/lcov.info
         delete-old-comments: true
-    - uses: 5monkeys/cobertura-action@master
-      name: An Additional Commenting option
-      with:
-        path: coverage/coverage.cobertura.xml
-        minimum_coverage: 85
-        link_missing_lines: true
-        show_missing: true
-        show_line: true
-        show_branch: true
-        show_class_names: true
