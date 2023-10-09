@@ -68,6 +68,10 @@ jobs:
         diff: true
         diff-branch: main
         diff-storage: _xml_coverage_reports
+    - uses: romeovs/lcov-reporter-action@v0.3.1
+      with:
+        lcov-file: CodeCoverage/lcov.info
+        delete-old-comments: true
     - uses: 5monkeys/cobertura-action@master
       name: An Additional Commenting option
       with:
@@ -78,7 +82,3 @@ jobs:
         show_line: true
         show_branch: true
         show_class_names: true
-    - uses: romeovs/lcov-reporter-action@v0.3.1
-      with:
-        lcov-file: CodeCoverage/lcov.info
-        delete-old-comments: true
