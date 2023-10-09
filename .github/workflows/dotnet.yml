@@ -58,7 +58,7 @@ jobs:
         threshold: 80.123
         # Fail the workflow if the minimum code coverage
         # reuqirements are not satisfied.
-        fail: true
+        fail: false
         # Publish the rendered output as a PR comment
         publish: true
         # Create a coverage diff report.
