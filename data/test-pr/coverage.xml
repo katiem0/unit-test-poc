@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.5" branch-rate="0.5" version="1.9" timestamp="1696867835" lines-covered="6" lines-valid="12" branches-covered="6" branches-valid="12">
+<coverage line-rate="0.5" branch-rate="0.5" version="1.9" timestamp="1696871109" lines-covered="6" lines-valid="12" branches-covered="6" branches-valid="12">
   <sources>
     <source>/</source>
   </sources>
   <packages>
     <package name="PrimeService" line-rate="0.5" branch-rate="0.5" complexity="12">
       <classes>
-        <class name="Prime.Services.PrimeService" filename="home/runner/work/unit-test-poc/unit-test-poc/PrimeService/PrimeService.cs" line-rate="0.5" branch-rate="0.5" complexity="12">
+        <class name="Prime.Services.PrimeService" filename="home/runner/work/unit-test-poc/unit-test-poc/src/PrimeService/PrimeService.cs" line-rate="0.5" branch-rate="0.5" complexity="12">
           <methods>
             <method name="IsPrime" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
