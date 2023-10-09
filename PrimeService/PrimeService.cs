@@ -20,5 +20,21 @@ namespace Prime.Services
             }
             return true;
         }
+        public bool IsNotPrime(int candidate)
+        {
+            if (candidate < 2)
+            {
+                return true;
+            }
+
+            for (var divisor = 2; divisor <= Math.Sqrt(candidate); divisor++)
+            {
+                if (candidate % divisor == 0)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
     }
 }
