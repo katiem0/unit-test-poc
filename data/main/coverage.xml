@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="1" branch-rate="1" version="1.9" timestamp="1696865879" lines-covered="6" lines-valid="6" branches-covered="6" branches-valid="6">
+<coverage line-rate="0.5" branch-rate="0.5" version="1.9" timestamp="1696874940" lines-covered="6" lines-valid="12" branches-covered="6" branches-valid="12">
   <sources>
     <source>/</source>
   </sources>
   <packages>
-    <package name="PrimeService" line-rate="1" branch-rate="1" complexity="6">
+    <package name="PrimeService" line-rate="0.5" branch-rate="0.5" complexity="12">
       <classes>
-        <class name="Prime.Services.PrimeService" filename="home/runner/work/unit-test-poc/unit-test-poc/PrimeService/PrimeService.cs" line-rate="1" branch-rate="1" complexity="6">
+        <class name="Prime.Services.PrimeService" filename="home/runner/work/unit-test-poc/unit-test-poc/PrimeService/PrimeService.cs" line-rate="0.5" branch-rate="0.5" complexity="12">
           <methods>
             <method name="IsPrime" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
@@ -30,6 +30,28 @@
                 <line number="21" hits="4" branch="False" />
               </lines>
             </method>
+            <method name="IsNotPrime" signature="(System.Int32)" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="2" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="27" hits="0" branch="False" />
+                <line number="30" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="30" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="13" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="34" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+              </lines>
+            </method>
           </methods>
           <lines>
             <line number="9" hits="11" branch="True" condition-coverage="100% (2/2)">
@@ -50,6 +72,24 @@
             </line>
             <line number="18" hits="4" branch="False" />
             <line number="21" hits="4" branch="False" />
+            <line number="25" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="2" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="27" hits="0" branch="False" />
+            <line number="30" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="30" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="32" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="13" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="34" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
           </lines>
         </class>
       </classes>
