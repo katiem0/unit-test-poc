@@ -19,16 +19,21 @@ jobs:
       issues: write
     steps:
     - uses: actions/checkout@v4
+      with:
+        path: src
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 6.0.x
     - name: Restore dependencies
-      run: dotnet restore unit-test-poc.sln
+      run: dotnet restore unit-test-poc/unit-test-poc.sln
+      working-directory: ./src
     - name: Build
-      run: dotnet build unit-test-poc.sln --configuration Release --no-restore
+      run: dotnet build unit-test-poc/unit-test-poc.sln --configuration Release --no-restore
+      working-directory: ./src
     - name: Test
-      run: dotnet test unit-test-poc.sln  --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx --results-directory coverage
+      run: dotnet test ./src/unit-test-poc/unit-test-poc.sln  --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx --results-directory coverage
+
     - name: Copy Coverage To Predictable Location
       run: cp coverage/*/coverage.cobertura.xml coverage/coverage.cobertura.xml
     - name: Create code coverage report
@@ -53,9 +58,10 @@ jobs:
       with:
         recreate: true
         path: code-coverage-results.md  
-    - uses: romeovs/lcov-reporter-action@v0.2.16
+    - uses: romeovs/lcov-reporter-action@v0.2
       with:
         lcov-file: CodeCoverage/lcov.info
+        delete-old-comments: true
     - name: Produce the coverage report and comment
       uses: insightsengineering/coverage-action@v2
       with:
