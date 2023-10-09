@@ -71,3 +71,11 @@ jobs:
         # `diff-branch` are stored.
         # Branch is created if it doesn't already exist'.
         diff-storage: _xml_coverage_reports
+    - uses: 5monkeys/cobertura-action@master
+      name: An Additional Commenting option
+      with:
+        path: ./coverage/**/coverage.cobertura.xml
+        minimum_coverage: 75
+        link_missing_lines: true
+        link_missing_lines_source_dir: true
+        show_missing: true
