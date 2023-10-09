@@ -34,7 +34,7 @@ jobs:
     - name: Create code coverage report
       run: |
         dotnet tool install -g dotnet-reportgenerator-globaltool
-        reportgenerator -reports:coverage/coverage.cobertura.xml -targetdir:CodeCoverage -reporttypes:Html;Cobertura;lcov;MarkdownSummaryGithub
+        reportgenerator -reports:coverage/coverage.cobertura.xml -targetdir:CodeCoverage -reporttypes:Html;lcov;MarkdownSummaryGithub
     - name: Code Coverage Report
       uses: irongut/CodeCoverageSummary@v1.3.0
       with:
