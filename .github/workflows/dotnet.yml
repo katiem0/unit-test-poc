@@ -58,7 +58,7 @@ jobs:
       with:
         recreate: true
         path: code-coverage-results.md  
-    - uses: romeovs/lcov-reporter-action@v0.2
+    - uses: romeovs/lcov-reporter-action@v0.2.11
       with:
         lcov-file: CodeCoverage/lcov.info
         delete-old-comments: true
