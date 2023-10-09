@@ -77,5 +77,4 @@ jobs:
         path: ./coverage/**/coverage.cobertura.xml
         minimum_coverage: 75
         link_missing_lines: true
-        link_missing_lines_source_dir: true
         show_missing: true
