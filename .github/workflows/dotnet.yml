@@ -72,6 +72,7 @@ jobs:
       name: An Additional Commenting option
       with:
         path: coverage/coverage.cobertura.xml
+        minimum_coverage: 85
         link_missing_lines: true
         show_missing: true
         show_line: true
